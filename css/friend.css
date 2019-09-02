@@ -1,0 +1,71 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend .friend__face {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.friend__face.g-face {
+  width: 70px;
+  height: 70px;
+}
+
+.friend__face.m-face {
+  width: 60px;
+  height: 60px;
+}
+
+.friend__column {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.friend__column .friend__add-btn {
+  margin-right: 5px;
+}
+
+.friend__face {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.friend__content .friend__status {
+  opacity: 0.5;
+  font-size: 12px;
+}
+.friend__content .friend__bottom-text {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.friend .chat__timestamp {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.friend .friend__now-listening {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 1.5px solid #12da00;
+}
+
+.friend__now-listening span {
+  margin-right: 4px;
+  opacity: 0.7;
+}
+.friend__now-listening i {
+  font-size: 6px;
+  opacity: 0.6;
+}
