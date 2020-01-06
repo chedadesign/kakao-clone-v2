@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:200,400,600,700&display=swap");
 
 @import "reset.css";
 @import "status-bar.css";
@@ -9,6 +9,12 @@
 @import "find.css";
 @import "more.css";
 @import "settings.css";
+@import "chat.css";
+@import "mobile.css";
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: white;
@@ -23,6 +29,16 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+@keyframes fadeIn {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transfotm: 0;
+  }
+}
+
+main {
+  animation: fadeIn 0.4s ease-in-out;
 }

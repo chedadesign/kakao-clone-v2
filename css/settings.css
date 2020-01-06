@@ -8,3 +8,16 @@
   margin-right: 20px;
   cursor: pointer;
 }
+
+.settings__setting .settings__title {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.settings .settings__setting {
+  margin-bottom: 30px;
+}
+
+.settings .settings__setting:last-child {
+  margin-bottom: 5px;
+}

@@ -21,10 +21,10 @@
 
 .nav .nav__badge {
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: -5px;
+  right: -5px;
   color: white;
-  background-color: #dc5d46;
+  background-color: #ec2300;
   width: 17px;
   height: 17px;
   display: flex;
@@ -32,4 +32,19 @@
   align-items: center;
   border-radius: 50%;
   font-size: 12px;
+}
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(60px);
+  animation: showNavBar 0.3s linear forwards;
+  animation-delay: 0.2s;
 }

@@ -14,6 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
 }
 
 .more__btn .more__btn-title {
@@ -24,6 +25,11 @@
 .more .more__suggestions {
   border-top: 1px solid #f9f9f9;
   padding-top: 20px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.more__suggestions-list {
   display: flex;
 }
 
@@ -32,7 +38,12 @@
   margin-bottom: 20px;
 }
 
-.more .suggestion__icon {
+.suggestion .suggestion__title {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.suggestion .suggestion__icon {
   height: 50px;
   width: 50px;
   display: flex;
@@ -40,4 +51,9 @@
   align-items: center;
   border-radius: 10px;
   background-color: #ffd000;
+}
+
+.suggestion__icon i {
+  font-size: 28px;
+  color: white;
 }
